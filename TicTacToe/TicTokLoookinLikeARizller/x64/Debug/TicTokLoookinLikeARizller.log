@@ -1,0 +1,4 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (TicTokLoookinLikeARizller.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  TicTacToe.cpp
+C:\Users\radmi\source\repos\TicTacToe\TicTokLoookinLikeARizller\TicTacToe.cpp(130,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  TicTokLoookinLikeARizller.vcxproj -> C:\Users\radmi\source\repos\TicTacToe\x64\Debug\TicTacToe.exe
