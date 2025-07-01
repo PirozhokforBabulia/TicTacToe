@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\radmi\\source\\repos\\TicTacToe\\",
+  "WorkspaceRootPath": "C:\\Users\\radmi\\source\\repos\\PirozhokforBabulia\\TicTacToe\\TicTacToe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{552FF4D8-00AB-4C76-BDAE-7E9681F0A781}|TicTacToe\\TicTacToe.vcxproj|C:\\Users\\radmi\\source\\repos\\TicTacToe\\TicTacToe\\TicTacToe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{552FF4D8-00AB-4C76-BDAE-7E9681F0A781}|TicTacToe\\TicTacToe.vcxproj|C:\\Users\\radmi\\source\\repos\\PirozhokforBabulia\\TicTacToe\\TicTacToe\\TicTacToe\\TicTacToe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{552FF4D8-00AB-4C76-BDAE-7E9681F0A781}|TicTacToe\\TicTacToe.vcxproj|solutionrelative:TicTacToe\\TicTacToe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -24,14 +24,18 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TicTacToe.cpp",
-              "DocumentMoniker": "C:\\Users\\radmi\\source\\repos\\TicTacToe\\TicTacToe\\TicTacToe.cpp",
+              "DocumentMoniker": "C:\\Users\\radmi\\source\\repos\\PirozhokforBabulia\\TicTacToe\\TicTacToe\\TicTacToe\\TicTacToe.cpp",
               "RelativeDocumentMoniker": "TicTacToe\\TicTacToe.cpp",
-              "ToolTip": "C:\\Users\\radmi\\source\\repos\\TicTacToe\\TicTacToe\\TicTacToe.cpp",
+              "ToolTip": "C:\\Users\\radmi\\source\\repos\\PirozhokforBabulia\\TicTacToe\\TicTacToe\\TicTacToe\\TicTacToe.cpp",
               "RelativeToolTip": "TicTacToe\\TicTacToe.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-20T09:25:25.855Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

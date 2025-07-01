@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include <ctime>
 #include <string>
+#include <vector>
 void drawBoard(char* spaces);
 void playerMove(char* spaces, char player);
 void computerMove(char* spaces, char computer);
@@ -9,6 +10,7 @@ bool checkTie(char* spaces);
 using namespace std;
 int main()
 {
+    srand(time(NULL));
     char spaces[9] = { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' };
     char player = '\n';
     std::string check;
@@ -114,25 +116,33 @@ void playerMove(char* spaces, char player)
         else
         {
             cin.clear();
-            cin.ignore();
+            cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
         }
 
 
-    } while ((!(number > 0) || !(number < 8) || (spaces[number] != ' ')));
+    } while (((number < 0) || (number >= 9) || (spaces[number] != ' ')));
+
+}
+std::vector<int> freeSpace(char* spaces) {
+    std::vector<int> count;
+    for (int i = 0; i < 9; i++) {
+        if (spaces[i] == ' ') {
+            count.push_back(i);
+        }
+    }
+    return count;
 
 }
 void computerMove(char* spaces, char computer)
 {
+    std::vector<int> num = freeSpace(spaces);
     int number;
-    srand(time(NULL));
-    while (true) {
-        number = rand() % 9;
-        if (spaces[number] == ' ')
-        {
-            spaces[number] = computer;
-            break;
-        }
-    }
+
+
+    number = rand() % num.size();
+    spaces[num[number]] = computer;
+
 }
 bool checkWinner(char* spaces, char computer, char player)
 {
