@@ -23,8 +23,9 @@ This project demonstrates basic game logic, user interaction, and simple AI beha
 g++ -std=c++17 -Wall -Wextra tictactoe.cpp -o tictactoe
 ./tictactoe
 ```
+
 #### 📌 Notes
 
-    This is a console-based game — there is no GUI.
+  - This is a console-based game — there is no GUI.
 
-    The AI plays randomly — no minimax or strategic behavior is implemented.
+  - The AI plays randomly — no minimax or strategic behavior is implemented.
